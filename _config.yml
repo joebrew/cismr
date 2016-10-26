@@ -1,15 +1,27 @@
 # Site settings
-title: R CISM
-email: 
-description: Aprendizagem de R no CISM
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://github.com" # the base hostname & protocol for your site
-# twitter_username: username
-github_username: joebrew
+title: data is beautiful
+email: joebrew@gmail.com
+url: http://cismr.com
+baseurl: 
+description: "science is amazing. presentations and papers should not be boring"
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  links: '#219ab3'
+
+# Footer settings
+footer: data is beautiful
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: youtube
+    url: https://www.youtube.com/
+  - title: twitter
+    url: https://twitter.com/bcndata
+  - title: facebook
+    url: https://www.facebook.com/josephbrew
 
 # Build settings
-markdown: redcarpet
-markdown_ext:  markdown,mkdown,mkdn,mkd,md
-
-redcarpet:
-  extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "fenced_code_blocks"]
+markdown: kramdown
+permalink: pretty
